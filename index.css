@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* header style */
+header{
+    background-image: url(media/carbon.jpg);
+
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header,img{
+    display: flex;
+    align-items: center;
+
+
+}
+ 
+nav,ul,li,a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+a{
+    color: white;
+
+}
+    
+/* HERO SECTION */
+#Hero{
+    padding-top: 70px;
+    padding-left: 70px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #e20808;
+    height: 500px;
+    
+
+}
+
+
+#hero,h3{
+  display: flex;
+  justify-content:center;
+  
+  padding-top: 15vb ;
+  padding-right: 100vb;
+    
+}
+
+
+
+/* ABOUT-ME */
+#ABOUT-ME{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #d008e2;
+    height: 500px;
+    
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+@keyframes move
